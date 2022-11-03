@@ -29,5 +29,7 @@ namespace InsuranceCompanyMVC.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Claim> Claims { get; set; }
     }
 }
